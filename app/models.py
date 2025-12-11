@@ -11,3 +11,4 @@ class History(Base):
     CreatedDate = Column(DateTime(timezone=True), server_default=func.now())
     UID = Column(String)
     Status = Column(String)
+#a
